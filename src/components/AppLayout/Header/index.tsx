@@ -50,7 +50,7 @@ const Header = (): React.ReactElement => {
         Playground
       </Brand>
       <HeaderRightRender>
-        {/* <Button
+        <Button
           css={css`
             margin-right: -30px;
           `}
@@ -63,7 +63,7 @@ const Header = (): React.ReactElement => {
           `}
         >
           My posts
-        </Button> */}
+        </Button>
         <GitHubLink
           src={githubLogo}
           onClick={() => {
